@@ -5,9 +5,9 @@
   <subtitle>半路出家做程序猿的心路历程</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2018-04-11T13:10:49.212Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://luwanlin.xyz/"/>
+  <updated>2018-04-13T07:54:37.139Z</updated>
+  <id>http://luwanlin.xyz/</id>
   
   <author>
     <name>卢万林</name>
@@ -18,45 +18,55 @@
   
   <entry>
     <title>我还学习</title>
-    <link href="http://yoursite.com/2018/04/11/%E6%88%91%E8%BF%98%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://yoursite.com/2018/04/11/我还学习/</id>
+    <link href="http://luwanlin.xyz/2018/04/11/%E6%88%91%E8%BF%98%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://luwanlin.xyz/2018/04/11/我还学习/</id>
     <published>2018-04-11T13:03:40.000Z</published>
-    <updated>2018-04-11T13:10:49.212Z</updated>
+    <updated>2018-04-13T07:54:37.139Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="学习安装hexo博客系统"><a href="#学习安装hexo博客系统" class="headerlink" title="学习安装hexo博客系统"></a>学习安装hexo博客系统</h1><p>经过一番查询和努力，可终于安装好了。现在试着编辑一下，看看怎么样！</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="学习安装hexo博客系统"><a href="#学习安装hexo博客系统" class="headerlink" title="学习安装hexo博客系统"></a>学习安装hexo博客系统</h1><p>经过一番查询和努力，可终于安装好了。现在试着编辑一下，看看怎么样！</p><h1 id="今天开始进行详细的配置"><a href="#今天开始进行详细的配置" class="headerlink" title="今天开始进行详细的配置"></a>今天开始进行详细的配置</h1><h2 id="样式自定义"><a href="#样式自定义" class="headerlink" title="样式自定义"></a>样式自定义</h2><h2 id="页面设置"><a href="#页面设置" class="headerlink" title="页面设置"></a>页面设置</h2><h2 id="第三方服务"><a href="#第三方服务" class="headerlink" title="第三方服务"></a>第三方服务</h2>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;学习安装hexo博客系统&quot;&gt;&lt;a href=&quot;#学习安装hexo博客系统&quot; class=&quot;headerlink&quot; title=&quot;学习安装hexo博客系统&quot;&gt;&lt;/a&gt;学习安装hexo博客系统&lt;/h1&gt;&lt;p&gt;经过一番查询和努力，可终于安装好了。现在试着编辑一下，看看怎
-      
+      welcom to Hexo! this is your very first post.
     
     </summary>
     
+      <category term="学习过程记录" scheme="http://luwanlin.xyz/categories/%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/"/>
     
-      <category term="学习记录" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="学习记录" scheme="http://luwanlin.xyz/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="尝试" scheme="http://luwanlin.xyz/tags/%E5%B0%9D%E8%AF%95/"/>
+    
+      <category term="努力" scheme="http://luwanlin.xyz/tags/%E5%8A%AA%E5%8A%9B/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/04/11/hello-world/"/>
-    <id>http://yoursite.com/2018/04/11/hello-world/</id>
+    <link href="http://luwanlin.xyz/2018/04/11/hello-world/"/>
+    <id>http://luwanlin.xyz/2018/04/11/hello-world/</id>
     <published>2018-04-11T12:34:00.702Z</published>
-    <updated>2018-04-11T12:34:00.702Z</updated>
+    <updated>2018-04-13T07:46:00.037Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>每个人都有找到自己最想做的事情的愿望和尝试，但是只有少数人找到了，这些人是幸运的。<br><a id="more"></a><br>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
+      &lt;p&gt;每个人都有找到自己最想做的事情的愿望和尝试，但是只有少数人找到了，这些人是幸运的。&lt;br&gt;
     
     </summary>
     
+      <category term="my code" scheme="http://luwanlin.xyz/categories/my-code/"/>
+    
+      <category term="学习过程记录" scheme="http://luwanlin.xyz/categories/my-code/%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="学习记录" scheme="http://luwanlin.xyz/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="text" scheme="http://luwanlin.xyz/tags/text/"/>
+    
+      <category term="yakaxi" scheme="http://luwanlin.xyz/tags/yakaxi/"/>
     
   </entry>
   
