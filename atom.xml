@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luwanlin.xyz/"/>
-  <updated>2018-04-14T06:56:30.155Z</updated>
+  <updated>2018-04-16T08:34:00.465Z</updated>
   <id>http://luwanlin.xyz/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello hexo</title>
+    <link href="http://luwanlin.xyz/2018/04/16/hello-hexo/"/>
+    <id>http://luwanlin.xyz/2018/04/16/hello-hexo/</id>
+    <published>2018-04-16T06:10:01.000Z</published>
+    <updated>2018-04-16T08:34:00.465Z</updated>
+    
+    <content type="html"><![CDATA[<p>搭建一个博客来记录自己的前端学习、工作和生活，希望可以找到一些同样喜欢前端的朋友一起交流。<br><a id="more"></a></p><h2 id="1-初衷"><a href="#1-初衷" class="headerlink" title="1 初衷"></a>1 初衷</h2><h3 id="1-1-笔记资料代码化"><a href="#1-1-笔记资料代码化" class="headerlink" title="1.1 笔记资料代码化"></a>1.1 笔记资料代码化</h3><p>刚开始学习前端的时候，做笔记都是用WPS，记录代码的时候都是用截屏图片的方式。刚开始感觉没有啥问题，但是过了一段时间，再回去看笔记的时候，发现截屏记录的效果太差了，看着都能理解，但是关掉笔记，自己就写不出来！神马原因呢？一定不是因为我脑袋笨，一定不是！！那应该是我学习的方法有问题。思来想去，得出<strong>看代码不如敲代码</strong>的结论，决心以后学习中遇到要记录的代码，一定要自己敲一遍。<br>鉴于此，我开始把我WPS版的笔记用<a href="https://www.zybuluo.com/mdeditor#1036318" target="_blank" rel="noopener">MarkDown</a>誊写，然后同步到<a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>上面。</p><h3 id="1-2-结识爱好前端的朋友"><a href="#1-2-结识爱好前端的朋友" class="headerlink" title="1.2 结识爱好前端的朋友"></a>1.2 结识爱好前端的朋友</h3><p>自学之路是孤独的，独的，的。为了避免孤陋而寡闻，我决定要建一个自己的技术博客，分享自己的学习，结识同样爱好前端的朋友。</p><h2 id="2-尝试和选择"><a href="#2-尝试和选择" class="headerlink" title="2 尝试和选择"></a>2 尝试和选择</h2><h3 id="2-1-wordpress"><a href="#2-1-wordpress" class="headerlink" title="2.1 wordpress"></a>2.1 wordpress</h3><p>首先，我想到的<a href="https://cn.wordpress.org/" target="_blank" rel="noopener">wordpress</a>。恰好我有阿里云的<em>空间</em>和<em>域名</em>，就参照阿里云上面的攻略，搭建了一个WordPress博客。但是在写博文的时候，发现WordPress的编辑器太难用了，主要是我不知道背后的逻辑，有一种失控感。</p><h3 id="2-2-octopress"><a href="#2-2-octopress" class="headerlink" title="2.2 octopress"></a>2.2 octopress</h3><p>在放弃了WordPress之后，我发现了<a href="http://octopress.org/" target="_blank" rel="noopener">octopress</a>,它基于GitHub和Git的管理方式，尤其是支持Markdown的特性深深吸引了我。百度了几个教程，本以为按照步骤操作，就万事大吉了，但是，不知道是人品还是啥原因，各种error。心累，果断弃坑。</p><h3 id="2-3-Hexo"><a href="#2-3-Hexo" class="headerlink" title="2.3 Hexo"></a>2.3 Hexo</h3><p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>和octopress一样是基于GitHub开发的，使用Git管理，同样支持Markdown。按照网上的教程，本blog很快就建立起来了，没有遇到error，一个都没有！</p><h2 id="3-hexo写博文的基本操作"><a href="#3-hexo写博文的基本操作" class="headerlink" title="3 hexo写博文的基本操作"></a>3 hexo写博文的基本操作</h2><h3 id="3-1-创建一个新的博文"><a href="#3-1-创建一个新的博文" class="headerlink" title="3.1 创建一个新的博文"></a>3.1 创建一个新的博文</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"my new post"</span></span><br></pre></td></tr></table></figure><p>More information: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="3-2-生成静态网页"><a href="#3-2-生成静态网页" class="headerlink" title="3.2 生成静态网页"></a>3.2 生成静态网页</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line"></span><br><span class="line"><span class="comment"># for short</span></span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><p>More information: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="3-3-本地预览"><a href="#3-3-本地预览" class="headerlink" title="3.3 本地预览"></a>3.3 本地预览</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br><span class="line"></span><br><span class="line"><span class="comment"># for short</span></span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><p>在执行<code>hexo s</code>之后，就可以在<code>http://localhost:4000</code>中预览博客。<br><br>More information: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="3-4-博客部署"><a href="#3-4-博客部署" class="headerlink" title="3.4 博客部署"></a>3.4 博客部署</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line"></span><br><span class="line"><span class="comment"># for short</span></span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><p>More information: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><h2 id="4-参考资源"><a href="#4-参考资源" class="headerlink" title="4 参考资源"></a>4 参考资源</h2><p>感谢<a href="https://github.com/bruce-sha" target="_blank" rel="noopener">不如</a>编写的hexo博客的详细安装说明，和<a href="https://github.com/MOxFIVE" target="_blank" rel="noopener">MOxFIVE</a>编写的主题使用说明。<br></p><ul><li><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="noopener">hexo你的博客</a></li><li><a href="http://moxfive.coding.me/yelee/" target="_blank" rel="noopener">Yelee主题的使用说明</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;搭建一个博客来记录自己的前端学习、工作和生活，希望可以找到一些同样喜欢前端的朋友一起交流。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="web-dev-tools" scheme="http://luwanlin.xyz/categories/web-dev-tools/"/>
+    
+    
+      <category term="Hexo" scheme="http://luwanlin.xyz/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>my hexo blog</title>
